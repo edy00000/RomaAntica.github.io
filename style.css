@@ -1,0 +1,85 @@
+html{
+font-family: Arial, Verdana sans-serif;
+font-size: 20px;
+}
+.button{
+    background: #c6c8cc;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    }
+.albastru{
+    background: blue;
+    box-shadow: 0 5px #05329c;
+    border-radius: 5px; 
+}
+.albastru:hover{
+    background: #05329c;
+}
+ 
+.galben{
+    background: #9c9905;
+    box-shadow: 0 5px #6b6903;
+    border-radius: 5px;
+}
+.galben:hover{
+    background: #6b6903;
+}
+.rosu{
+background: red;
+    box-shadow: 0 5px #cc2206;
+    border-radius: 5px;
+}
+.rosu:hover{
+    background: #cc2206;
+}
+.verde{
+background: green;
+    box-shadow: 0 5px #0b4502;
+    border-radius: 5px;
+}
+.verde:hover{
+    background: #0b4502;
+}
+.portocaliu{
+background: orange;
+    box-shadow: 0 5px #ad5c05;
+    border-radius: 5px;
+}
+.portocaliu:hover{
+    background: #ad5c05;
+}
+div {
+		background-color: #FFCC99;
+   		 width: 1470px;
+    		border: 25px solid cyan;
+    		padding: 25px;
+   		 margin: 25px;
+		}
+		h1 {
+			text-shadow: 4px 4px 5px green;
+		}
+div {
+    width: 1470px;
+    height: 650px;
+    background-color: red;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 6s; 
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 50;
+}
+
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: green;}
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: green;}
+}

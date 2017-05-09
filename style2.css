@@ -1,0 +1,34 @@
+div {
+		background-color: #FFCC99;
+   		 width: 1470px;
+    		border: 25px solid cyan;
+    		padding: 25px;
+   		 margin: 25px;
+		}
+		h1 {
+			text-shadow: 4px 4px 5px white;
+		}
+div {
+    width: 1470px;
+    height: 1250px;
+    background-color: red;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 6s; 
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 50;
+}
+
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: green;}
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: green;}
+}
